@@ -1,0 +1,297 @@
+Downloading https://services.gradle.org/distributions/gradle-8.0-all.zip
+...............10%................20%................30%................40%................50%................60%................70%................80%................90%................100%
+
+Welcome to Gradle 8.0!
+
+For more details see https://docs.gradle.org/8.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Checking the license for package Android SDK Build-Tools 33.0.2 in /home/monero/Android/licenses
+License for package Android SDK Build-Tools 33.0.2 accepted.
+Preparing "Install Android SDK Build-Tools 33.0.2 (revision: 33.0.2)".
+"Install Android SDK Build-Tools 33.0.2 (revision: 33.0.2)" ready.
+Installing Android SDK Build-Tools 33.0.2 in /home/monero/Android/build-tools/33.0.2
+"Install Android SDK Build-Tools 33.0.2 (revision: 33.0.2)" complete.
+"Install Android SDK Build-Tools 33.0.2 (revision: 33.0.2)" finished.
+Checking the license for package Android SDK Platform 33 in /home/monero/Android/licenses
+License for package Android SDK Platform 33 accepted.
+Preparing "Install Android SDK Platform 33 (revision: 3)".
+"Install Android SDK Platform 33 (revision: 3)" ready.
+Installing Android SDK Platform 33 in /home/monero/Android/platforms/android-33
+"Install Android SDK Platform 33 (revision: 3)" complete.
+"Install Android SDK Platform 33 (revision: 3)" finished.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preAlphaDevnetDebugBuild UP-TO-DATE
+> Task :app:mergeAlphaDevnetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateAlphaDevnetDebugBuildConfig
+> Task :app:javaPreCompileAlphaDevnetDebug
+> Task :app:checkAlphaDevnetDebugAarMetadata
+> Task :app:generateAlphaDevnetDebugResValues
+> Task :app:mapAlphaDevnetDebugSourceSetPaths
+> Task :app:generateAlphaDevnetDebugResources
+> Task :app:createAlphaDevnetDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksAlphaDevnetDebug
+> Task :app:processAlphaDevnetDebugMainManifest
+> Task :app:mergeAlphaDevnetDebugResources
+> Task :app:processAlphaDevnetDebugManifest
+> Task :app:mergeAlphaDevnetDebugShaders
+> Task :app:compileAlphaDevnetDebugShaders NO-SOURCE
+> Task :app:generateAlphaDevnetDebugAssets UP-TO-DATE
+> Task :app:mergeAlphaDevnetDebugAssets
+> Task :app:processAlphaDevnetDebugJavaRes NO-SOURCE
+> Task :app:compressAlphaDevnetDebugAssets
+> Task :app:checkAlphaDevnetDebugDuplicateClasses
+> Task :app:desugarAlphaDevnetDebugFileDependencies
+> Task :app:preProdDevnetDebugBuild UP-TO-DATE
+> Task :app:mergeLibDexAlphaDevnetDebug
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexAlphaDevnetDebug
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:mergeAlphaDevnetDebugJniLibFolders
+> Task :app:validateSigningAlphaDevnetDebug
+> Task :app:writeAlphaDevnetDebugAppMetadata
+> Task :app:writeAlphaDevnetDebugSigningConfigVersions
+> Task :app:preAlphaMainnetDebugBuild UP-TO-DATE
+> Task :app:mergeAlphaMainnetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateAlphaMainnetDebugBuildConfig
+> Task :app:javaPreCompileAlphaMainnetDebug
+> Task :app:checkAlphaMainnetDebugAarMetadata
+> Task :app:generateAlphaMainnetDebugResValues
+> Task :app:mapAlphaMainnetDebugSourceSetPaths
+> Task :app:generateAlphaMainnetDebugResources
+> Task :app:mergeAlphaDevnetDebugNativeLibs
+> Task :app:createAlphaMainnetDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksAlphaMainnetDebug
+> Task :app:processAlphaMainnetDebugMainManifest
+> Task :app:processAlphaMainnetDebugManifest
+> Task :app:mergeAlphaMainnetDebugShaders
+> Task :app:compileAlphaMainnetDebugShaders NO-SOURCE
+> Task :app:generateAlphaMainnetDebugAssets UP-TO-DATE
+> Task :app:mergeAlphaMainnetDebugAssets
+> Task :app:compressAlphaMainnetDebugAssets
+> Task :app:processAlphaMainnetDebugJavaRes NO-SOURCE
+> Task :app:desugarAlphaMainnetDebugFileDependencies
+> Task :app:checkAlphaMainnetDebugDuplicateClasses
+> Task :app:mergeAlphaMainnetDebugJniLibFolders
+> Task :app:mergeLibDexAlphaMainnetDebug
+> Task :app:stripAlphaDevnetDebugDebugSymbols
+> Task :app:validateSigningAlphaMainnetDebug
+> Task :app:writeAlphaMainnetDebugAppMetadata
+> Task :app:mergeAlphaMainnetDebugResources
+> Task :app:writeAlphaMainnetDebugSigningConfigVersions
+> Task :app:processAlphaDevnetDebugManifestForPackage
+> Task :app:mergeAlphaMainnetDebugNativeLibs
+> Task :app:preAlphaStagenetDebugBuild UP-TO-DATE
+> Task :app:mergeAlphaStagenetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateAlphaStagenetDebugBuildConfig
+> Task :app:javaPreCompileAlphaStagenetDebug
+> Task :app:checkAlphaStagenetDebugAarMetadata
+> Task :app:generateAlphaStagenetDebugResValues
+> Task :app:mapAlphaStagenetDebugSourceSetPaths
+> Task :app:generateAlphaStagenetDebugResources
+> Task :app:mergeExtDexAlphaMainnetDebug
+> Task :app:stripAlphaMainnetDebugDebugSymbols
+> Task :app:createAlphaStagenetDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksAlphaStagenetDebug
+> Task :app:processAlphaStagenetDebugMainManifest
+> Task :app:processAlphaStagenetDebugManifest
+> Task :app:mergeAlphaStagenetDebugShaders
+> Task :app:compileAlphaStagenetDebugShaders NO-SOURCE
+> Task :app:generateAlphaStagenetDebugAssets UP-TO-DATE
+> Task :app:mergeAlphaStagenetDebugAssets
+> Task :app:compressAlphaStagenetDebugAssets
+> Task :app:processAlphaStagenetDebugJavaRes NO-SOURCE
+> Task :app:desugarAlphaStagenetDebugFileDependencies
+> Task :app:checkAlphaStagenetDebugDuplicateClasses
+> Task :app:mergeAlphaStagenetDebugJniLibFolders
+> Task :app:processAlphaMainnetDebugManifestForPackage
+> Task :app:mergeLibDexAlphaStagenetDebug
+> Task :app:validateSigningAlphaStagenetDebug
+> Task :app:writeAlphaStagenetDebugAppMetadata
+> Task :app:writeAlphaStagenetDebugSigningConfigVersions
+> Task :app:mergeProdDevnetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateProdDevnetDebugBuildConfig
+> Task :app:javaPreCompileProdDevnetDebug
+> Task :app:mergeAlphaStagenetDebugResources
+> Task :app:checkProdDevnetDebugAarMetadata
+> Task :app:generateProdDevnetDebugResValues
+> Task :app:mapProdDevnetDebugSourceSetPaths
+> Task :app:generateProdDevnetDebugResources
+> Task :app:mergeAlphaStagenetDebugNativeLibs
+> Task :app:createProdDevnetDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksProdDevnetDebug
+> Task :app:processProdDevnetDebugMainManifest
+> Task :app:processProdDevnetDebugManifest
+> Task :app:mergeProdDevnetDebugShaders
+> Task :app:compileProdDevnetDebugShaders NO-SOURCE
+> Task :app:generateProdDevnetDebugAssets UP-TO-DATE
+> Task :app:mergeProdDevnetDebugAssets
+> Task :app:compressProdDevnetDebugAssets
+> Task :app:desugarProdDevnetDebugFileDependencies
+> Task :app:processProdDevnetDebugJavaRes NO-SOURCE
+> Task :app:checkProdDevnetDebugDuplicateClasses
+> Task :app:mergeProdDevnetDebugJniLibFolders
+> Task :app:mergeLibDexProdDevnetDebug
+> Task :app:validateSigningProdDevnetDebug
+> Task :app:writeProdDevnetDebugAppMetadata
+> Task :app:writeProdDevnetDebugSigningConfigVersions
+> Task :app:preProdMainnetDebugBuild UP-TO-DATE
+> Task :app:mergeProdMainnetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateProdMainnetDebugBuildConfig
+> Task :app:stripAlphaStagenetDebugDebugSymbols
+> Task :app:javaPreCompileProdMainnetDebug
+> Task :app:checkProdMainnetDebugAarMetadata
+> Task :app:generateProdMainnetDebugResValues
+> Task :app:mapProdMainnetDebugSourceSetPaths
+> Task :app:generateProdMainnetDebugResources
+> Task :app:mergeProdDevnetDebugResources
+> Task :app:mergeProdDevnetDebugNativeLibs
+> Task :app:processAlphaDevnetDebugResources
+> Task :app:mergeExtDexAlphaStagenetDebug
+> Task :app:mergeProdMainnetDebugResources
+> Task :app:processAlphaMainnetDebugResources
+> Task :app:mergeExtDexProdDevnetDebug
+
+> Task :app:compileAlphaDevnetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:dexBuilderAlphaDevnetDebug
+> Task :app:mergeAlphaDevnetDebugJavaResource
+> Task :app:mergeProjectDexAlphaDevnetDebug
+
+> Task :app:compileAlphaMainnetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:mergeAlphaMainnetDebugJavaResource
+> Task :app:dexBuilderAlphaMainnetDebug
+> Task :app:createProdMainnetDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksProdMainnetDebug
+> Task :app:processProdMainnetDebugMainManifest
+> Task :app:processProdMainnetDebugManifest
+> Task :app:mergeProdMainnetDebugShaders
+> Task :app:compileProdMainnetDebugShaders NO-SOURCE
+> Task :app:generateProdMainnetDebugAssets UP-TO-DATE
+> Task :app:mergeProdMainnetDebugAssets
+> Task :app:compressProdMainnetDebugAssets
+> Task :app:desugarProdMainnetDebugFileDependencies
+> Task :app:processProdMainnetDebugJavaRes NO-SOURCE
+> Task :app:checkProdMainnetDebugDuplicateClasses
+> Task :app:mergeProdMainnetDebugJniLibFolders
+> Task :app:mergeProjectDexAlphaMainnetDebug
+> Task :app:processProdDevnetDebugManifestForPackage
+> Task :app:mergeLibDexProdMainnetDebug
+> Task :app:stripProdDevnetDebugDebugSymbols
+> Task :app:validateSigningProdMainnetDebug
+> Task :app:writeProdMainnetDebugAppMetadata
+> Task :app:writeProdMainnetDebugSigningConfigVersions
+> Task :app:preProdStagenetDebugBuild UP-TO-DATE
+> Task :app:mergeProdStagenetDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateProdStagenetDebugBuildConfig
+> Task :app:javaPreCompileProdStagenetDebug
+> Task :app:generateProdStagenetDebugResValues
+> Task :app:checkProdStagenetDebugAarMetadata
+> Task :app:mapProdStagenetDebugSourceSetPaths
+> Task :app:generateProdStagenetDebugResources
+> Task :app:mergeProdMainnetDebugNativeLibs
+> Task :app:createProdStagenetDebugCompatibleScreenManifests
+> Task :app:processAlphaStagenetDebugManifestForPackage
+> Task :app:extractDeepLinksProdStagenetDebug
+> Task :app:processProdStagenetDebugMainManifest
+> Task :app:processProdStagenetDebugManifest
+> Task :app:mergeProdStagenetDebugShaders
+> Task :app:compileProdStagenetDebugShaders NO-SOURCE
+> Task :app:generateProdStagenetDebugAssets UP-TO-DATE
+> Task :app:mergeProdStagenetDebugAssets
+> Task :app:compressProdStagenetDebugAssets
+> Task :app:desugarProdStagenetDebugFileDependencies
+> Task :app:processProdStagenetDebugJavaRes NO-SOURCE
+> Task :app:checkProdStagenetDebugDuplicateClasses
+> Task :app:mergeProdStagenetDebugJniLibFolders
+> Task :app:stripProdMainnetDebugDebugSymbols
+> Task :app:mergeLibDexProdStagenetDebug
+> Task :app:validateSigningProdStagenetDebug
+> Task :app:mergeProdStagenetDebugResources
+> Task :app:packageAlphaDevnetDebug
+> Task :app:createAlphaDevnetDebugApkListingFileRedirect
+> Task :app:assembleAlphaDevnetDebug
+> Task :app:writeProdStagenetDebugAppMetadata
+> Task :app:writeProdStagenetDebugSigningConfigVersions
+> Task :app:processProdStagenetDebugManifestForPackage
+> Task :app:processProdMainnetDebugManifestForPackage
+> Task :app:mergeProdStagenetDebugNativeLibs
+> Task :app:packageAlphaMainnetDebug
+> Task :app:createAlphaMainnetDebugApkListingFileRedirect
+> Task :app:assembleAlphaMainnetDebug
+> Task :app:mergeExtDexProdMainnetDebug
+> Task :app:stripProdStagenetDebugDebugSymbols
+> Task :app:processProdDevnetDebugResources
+> Task :app:mergeExtDexProdStagenetDebug
+> Task :app:processAlphaStagenetDebugResources
+> Task :app:processProdStagenetDebugResources
+> Task :app:processProdMainnetDebugResources
+
+> Task :app:compileProdDevnetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileAlphaStagenetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:dexBuilderAlphaStagenetDebug
+> Task :app:mergeAlphaStagenetDebugJavaResource
+> Task :app:mergeProjectDexAlphaStagenetDebug
+> Task :app:mergeProdDevnetDebugJavaResource
+> Task :app:dexBuilderProdDevnetDebug
+> Task :app:mergeProjectDexProdDevnetDebug
+
+> Task :app:compileProdMainnetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:dexBuilderProdMainnetDebug
+> Task :app:mergeProdMainnetDebugJavaResource
+> Task :app:mergeProjectDexProdMainnetDebug
+> Task :app:packageAlphaStagenetDebug
+> Task :app:createAlphaStagenetDebugApkListingFileRedirect
+> Task :app:assembleAlphaStagenetDebug
+
+> Task :app:compileProdStagenetDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:mergeProdStagenetDebugJavaResource
+> Task :app:dexBuilderProdStagenetDebug
+> Task :app:mergeProjectDexProdStagenetDebug
+> Task :app:packageProdDevnetDebug
+> Task :app:createProdDevnetDebugApkListingFileRedirect
+> Task :app:assembleProdDevnetDebug
+> Task :app:packageProdMainnetDebug
+> Task :app:createProdMainnetDebugApkListingFileRedirect
+> Task :app:assembleProdMainnetDebug
+> Task :app:packageProdStagenetDebug
+> Task :app:createProdStagenetDebugApkListingFileRedirect
+> Task :app:assembleProdStagenetDebug
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 2m 39s
+192 actionable tasks: 192 executed

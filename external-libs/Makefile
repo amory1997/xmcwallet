@@ -1,4 +1,4 @@
-FLAVOUR = monero
+FLAVOUR = monero-classic-v4
 
 all: arm64-v8a armeabi-v7a x86_64 x86 include/wallet2_api.h VERSION
 

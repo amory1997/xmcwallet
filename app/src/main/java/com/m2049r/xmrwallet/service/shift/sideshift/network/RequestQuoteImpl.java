@@ -120,7 +120,7 @@ class RequestQuoteImpl implements RequestQuote {
         AmountFormatter = new DecimalFormat();
         AmountFormatter.setDecimalFormatSymbols(new DecimalFormatSymbols(Locale.US));
         AmountFormatter.setMinimumIntegerDigits(1);
-        AmountFormatter.setMaximumFractionDigits(12);
+        AmountFormatter.setMaximumFractionDigits(11);
         AmountFormatter.setGroupingUsed(false);
     }
 }

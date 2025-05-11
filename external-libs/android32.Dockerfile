@@ -1,6 +1,9 @@
 FROM debian:stable
 
-RUN set -x && apt-get update && apt-get install -y unzip automake build-essential curl file pkg-config git python libtool libtinfo5
+ENV http_proxy=http://192.168.0.111:10811
+ENV https_proxy=http://192.168.0.111:10811
+
+RUN set -x && apt-get update && apt-get install -y python-is-python3 unzip automake build-essential curl file pkg-config git python3 libtool libtinfo5
 
 WORKDIR /opt/android
 ## INSTALL ANDROID SDK
@@ -45,12 +48,17 @@ RUN set -x \
     && rm -f /usr/cmake-${CMAKE_VERSION}-Linux-x86_64.tar.gz
 ENV PATH /usr/cmake-${CMAKE_VERSION}-Linux-x86_64/bin:$PATH
 
+# install wget **tbc**
+RUN set -x &&  apt install wget -y
+RUN set -x && apt install aria2 -y
 ## Boost
 ARG BOOST_VERSION=1_70_0
 ARG BOOST_VERSION_DOT=1.70.0
 ARG BOOST_HASH=430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778
 RUN set -x \
-    && curl -L -o  boost_${BOOST_VERSION}.tar.bz2 https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION_DOT}/source/boost_${BOOST_VERSION}.tar.bz2 \
+    && aria2c --all-proxy="http://192.168.0.111:10811" -x 16 -s 16 "https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2/download" \
+#&& curl -L -o boost_${BOOST_VERSION}.tar.bz2  https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2 \    
+#&& curl -L -o boost_${BOOST_VERSION}.tar.bz2 https://mirrors.tuna.tsinghua.edu.cn/boost/${BOOST_VERSION_DOT}/boost_${BOOST_VERSION}.tar.bz2 \
     && echo "${BOOST_HASH}  boost_${BOOST_VERSION}.tar.bz2" | sha256sum -c \
     && tar -xvf boost_${BOOST_VERSION}.tar.bz2 \
     && rm -f boost_${BOOST_VERSION}.tar.bz2 \
@@ -83,7 +91,7 @@ RUN set -x \
 ENV ZLIB_VERSION 1.2.12
 ENV ZLIB_HASH 91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9
 RUN set -x \
-    && curl -O https://zlib.net/zlib-${ZLIB_VERSION}.tar.gz \
+    && curl -O https://zlib.net/fossils/zlib-${ZLIB_VERSION}.tar.gz \
     && echo "${ZLIB_HASH}  zlib-${ZLIB_VERSION}.tar.gz" | sha256sum -c \
     && tar -xzf zlib-${ZLIB_VERSION}.tar.gz \
     && rm zlib-${ZLIB_VERSION}.tar.gz \
@@ -96,7 +104,9 @@ ARG OPENSSL_VERSION=3.0.5
 ARG OPENSSL_HASH=aa7d8d9bef71ad6525c55ba11e5f4397889ce49c2c9349dcea6d3e4f0b024a7a
 # openssl explicitly demands to be built by a clang that has a "/prebuilt/" somewhere along its path, so use the prebuilt version, but make sure to specify the target android api
 RUN set -x \
-    && curl -O https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz \
+&& aria2c --all-proxy="http://192.168.0.111:10811" -x 16 -s 16 "https://github.com/openssl/openssl/releases/download/openssl-3.0.5/openssl-3.0.5.tar.gz" \  
+#  && curl -O https://github.com/openssl/openssl/releases/download/openssl-3.0.5/openssl-3.0.5.tar.gz \
+#    && curl -O https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz \
     && echo "${OPENSSL_HASH}  openssl-${OPENSSL_VERSION}.tar.gz" | sha256sum -c \
     && tar -xzf openssl-${OPENSSL_VERSION}.tar.gz \
     && rm openssl-${OPENSSL_VERSION}.tar.gz \
@@ -165,7 +175,7 @@ RUN set -x \
        CMAKE_LIBRARY_PATH="${PREFIX}/lib" \
        ANDROID_STANDALONE_TOOLCHAIN_PATH=${TOOLCHAIN_DIR} \
        USE_SINGLE_BUILDDIR=1 \
-       PATH=${HOST_PATH} make release-static-android-armv7-wallet_api -j${NPROC}
+       PATH=${HOST_PATH} make FLAVOUR=monero-classic-v4 release-static-android-armv7-wallet_api -j${NPROC}  MANUAL_SUBMODULES=1
 
 RUN set -x \
     && cd /src/build/release \

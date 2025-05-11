@@ -78,8 +78,8 @@ import timber.log.Timber;
 public class Helper {
     static public final String NOCRAZYPASS_FLAGFILE = ".nocrazypass";
 
-    static public final String BASE_CRYPTO = Crypto.XMR.getSymbol();
-    static public final int XMR_DECIMALS = 12;
+    static public final String BASE_CRYPTO = "XMC";
+    static public final int XMR_DECIMALS = 11;
     static public final long ONE_XMR = Math.round(Math.pow(10, Helper.XMR_DECIMALS));
 
     static public final boolean SHOW_EXCHANGERATES = true;

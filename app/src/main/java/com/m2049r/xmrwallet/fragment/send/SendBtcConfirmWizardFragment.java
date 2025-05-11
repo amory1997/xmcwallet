@@ -375,7 +375,7 @@ public class SendBtcConfirmWizardFragment extends SendWizardFragment implements 
         getView().post(() -> {
             // show data from the actual quote as that is what is used to
             NumberFormat df = NumberFormat.getInstance(Locale.US);
-            df.setMaximumFractionDigits(12);
+            df.setMaximumFractionDigits(11);
             final String btcAmount = df.format(xmrtoQuote.getBtcAmount());
             final String xmrAmountTotal = df.format(xmrtoQuote.getXmrAmount());
             tvTxBtcAmount.setText(getString(R.string.text_send_btc_amount,
