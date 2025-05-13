@@ -12,7 +12,7 @@
     <color name="oled_favouriteColor">#FFDB72</color>
     <color name="oled_softFavouriteColor">@color/oled_favouriteColor</color>
     <color name="oled_positiveColor">#27C79C</color>
-    <color name="oled_negativeColor">#FF3C79</color>
+    <color name="oled_negativeColor">#008CEB</color>
     <color name="oled_neutralColor">#171717</color>
     <color name="oled_noticeColor">#3DC2FF</color>
     <color name="oled_navigationBarColor">#000000</color>
@@ -33,8 +33,8 @@
     <color name="classic_textColorPrimary">#0C080C</color>
     <color name="classic_textColorSecondary">#392F39</color>
     <color name="classic_statusBarColor">@color/classic_gradientTopColor</color>
-    <color name="classic_gradientTopColor">#FF6105</color>
-    <color name="classic_gradientBottomColor">#FF006B</color>
+    <color name="classic_gradientTopColor">#ED00BCEB</color>
+    <color name="classic_gradientBottomColor">#008CEB</color>
     <color name="classic_streetColorA">#D81F0759</color>
     <color name="classic_streetColorB">#D819001E</color>
     <color name="classic_toolbarTextColor">#FFF6EF</color>
