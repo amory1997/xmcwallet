@@ -1,6 +1,6 @@
 FROM debian:stable
-ENV http_proxy=http://192.168.0.111:10811
-ENV https_proxy=http://192.168.0.111:10811
+# ENV http_proxy=http://192.168.0.111:10811
+# ENV https_proxy=http://192.168.0.111:10811
 RUN set -x && apt-get update && apt-get install -y python-is-python3 unzip automake build-essential curl file pkg-config git python3 libtool libtinfo5
 
 WORKDIR /opt/android
