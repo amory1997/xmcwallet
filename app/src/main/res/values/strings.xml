@@ -32,7 +32,7 @@
 
     <string name="label_receive_info_gen_qr_code">Touch for QR Code</string>
 
-    <string name="info_xmrto_enabled">Non-XMR payments enabled, tap for more info.</string>
+    <string name="info_xmrto_enabled">Non-XMC payments enabled, tap for more info.</string>
     <string name="info_ledger_enabled">Ledger enabled, tap for more info.</string>
 
     <string name="info_xmrto"><![CDATA[
@@ -289,7 +289,6 @@
         <item>GBP</item>
         <item>CHF</item>
         <item>CAD</item>
-
         <item>AUD</item>
         <item>BGN</item>
         <item>BRL</item>
@@ -323,7 +322,7 @@
     <string name="fab_restore_key">Restore wallet from private keys</string>
     <string name="fab_restore_seed">Restore wallet 25 word seed</string>
 
-    <string name="accounts_balance" translatable="false">%1$s XMR</string>
+    <string name="accounts_balance" translatable="false">%1$s XMC</string> <!--XMC is the unit of the total balance which display at the page of all account?-->
     <string name="tx_account_formatted" translatable="false">(%1$d, %2$d) &nbsp;&lt;span style=\"background-color: #%3$s; color: #%4$s;\"&gt;&nbsp;%5$s&nbsp;&lt;/span&gt;</string>
 
     <string name="accounts_drawer_new">Create Account</string>
