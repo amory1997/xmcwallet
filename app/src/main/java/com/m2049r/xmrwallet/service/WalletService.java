@@ -575,7 +575,7 @@ public class WalletService extends Service {
         Notification notification = new NotificationCompat.Builder(this, channelId)
                 .setContentTitle(getString(R.string.service_description))
                 .setOngoing(true)
-                .setSmallIcon(R.drawable.ic_monerujo)
+                .setSmallIcon(R.drawable.ic_monero) /*change the notice icon */
                 .setPriority(NotificationCompat.PRIORITY_MIN)
                 .setCategory(NotificationCompat.CATEGORY_SERVICE)
                 .setContentIntent(pendingIntent)

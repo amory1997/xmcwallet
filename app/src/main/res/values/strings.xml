@@ -36,8 +36,8 @@
     <string name="info_ledger_enabled">Ledger enabled, tap for more info.</string>
 
     <string name="info_xmrto"><![CDATA[
-        <b>You entered a %1$s address.</b><br/>
-        <i>You&apos;ll send XMR and the receiver will get %1$s using the <b>SideShift.ai</b> service.</i>
+        <b>STAY TUNED</b><br/><b>You entered a %1$s address.</b><br/>
+        <i>You&apos;ll send XMC and the receiver will get %1$s using the <b>SideShift.ai</b> service.</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">SideShift.ai Order</string>
@@ -51,11 +51,11 @@
     <string name="info_send_xmrto_query">Querying &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
-        <b>You can send %1$s &#8212; %2$s %4$s</b>.<br/>
-        <i><b>SideShift.ai</b> is giving you an exchange rate of <b>%3$s %4$s/XMR</b> <u>right now</u></i>.
+        <b>STAY TUNED</b><br/><b>You can send %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> is giving you an exchange rate of <b>%3$s %4$s/XMC</b> <u>right now</u></i>.
     ]]></string>
 
-    <string name="send_available_btc">Balance: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_available_btc">Balance: %2$s %3$s (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Payment ID integrated</string>
     <string name="info_prepare_tx">Preparing your transaction</string>
@@ -73,8 +73,8 @@
     <string name="text_noretry_monero">Now we\'re stuck here!</string>
     <string name="text_noretry">Uh-oh, SideShift.ai does not seem be available right now!</string>
 
-    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s %2$s/XMR)</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rate: %1$s %2$s/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Visit SideShift.ai for support &amp; tracking</string>
     <string name="label_send_btc_xmrto_key_lb">Secret Key\nSideShift.ai</string>
@@ -160,7 +160,7 @@
     <string name="message_copy_txid">Transaction ID copied to clipboard!</string>
     <string name="message_nocopy">Copy disabled for security reasons!</string>
 
-    <string name="message_exchange_failed">Cannot get exchange rate!\nUse XMR/XMR or try again</string>
+    <string name="message_exchange_failed">Cannot get exchange rate!\nUse XMC/XMC or try again</string>
 
     <string name="generate_title">Create Wallet</string>
     <string name="generate_name_hint">Wallet Name</string>
@@ -226,19 +226,19 @@
     <string name="send_address_resolve_openalias">Resolving OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias without DNSSEC - address may be spoofed</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Balance: %1$s XMR</string>
+    <string name="send_available">Balance: %1$s XMC</string>
     <string name="send_address_title">Address</string>
     <string name="send_amount_title">Amount</string>
     <string name="send_confirm_title">Confirm</string>
     <string name="send_success_title">Done</string>
 
     <string name="send_amount_label">Amount</string>
-    <string name="send_fee_btc_label">Fee (XMR)</string>
+    <string name="send_fee_btc_label">Fee (XMC)</string>
     <string name="send_fee_label">Fee</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Fee</string>
 
     <string name="send_create_tx_error_title">Create Transaction Error</string>
@@ -271,7 +271,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR not a number</string>
+    <string name="receive_amount_nan">XMC not a number</string>
 
     <string name="details_alert_message">Sensitive data will now be shown.\nLook over your shoulder!</string>
     <string name="details_alert_yes">I\'m safe</string>
@@ -412,11 +412,12 @@
     <string name="onboarding_seed_title">Keep your seed safe</string>
     <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
     <string name="onboarding_xmrto_title">Send Crypto</string>
-    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <!--<string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMC.</string>-->
+    <string name="onboarding_xmrto_information">STAY TUNED</string>
     <string name="onboarding_nodes_title">Nodes, your way</string>
     <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
     <string name="onboarding_fpsend_title">Send with fingerprint</string>
-    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMC with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
 
     <string name="menu_daynight">Dark Mode</string>
     <string-array name="daynight_themes">
@@ -443,12 +444,12 @@
     ]]></string>
 
     <string name="info_xmrto_help"><![CDATA[
-        <b>Please enter or scan a %1$s address.</b><br/>
-        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+        <b>STAY TUNED</b><br/><b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMC and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
     ]]></string>
 
     <string name="info_xmrto_help_xmr"><![CDATA[
-        <b>Please enter or scan a Monero address.</b>
+        <b>Please enter or scan a Monero-Classic address.</b>
     ]]></string>
 
     <!-- order must be the same as in com.m2049r.xmrwallet.data.Crypto-->
@@ -491,7 +492,7 @@
     <string name="node_tor_error">Tor required</string>
     <string name="node_waiting">\u00A0WAITING FOR NODE\u00A0</string>
     <string name="tor_enable_background">"Allow Background Starts" in Orbot Settings to use Tor!</string>
-    <string name="tor_noshift">SideShift.ai doesn\'t support Tor.\nDisable Tor to swap XMR.</string>
+    <string name="tor_noshift">SideShift.ai doesn\'t support Tor.\nDisable Tor to swap XMC.</string>
 
     <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
     <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
