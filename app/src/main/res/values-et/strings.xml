@@ -134,7 +134,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s %2$s kinnitamata</string>
 
-    <string name="service_description">monerujo teenus</string>
+    <string name="service_description">XMCWallet teenus</string>
 
     <string name="status_synced">Uuendatud:</string>
     <string name="status_remaining">Plokki veel</string>

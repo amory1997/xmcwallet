@@ -100,7 +100,7 @@
     <string name="label_wallet_receive">收款</string>
     <string name="label_wallet_send">发送</string>
     <string name="xmr_unconfirmed_amount">+ %1$s %2$s未确认</string>
-    <string name="service_description">monerujo服务</string>
+    <string name="service_description">XMCWallet服务</string>
     <string name="status_synced">已同步：</string>
     <string name="status_remaining">区块剩余</string>
     <string name="status_syncing">扫描中：</string>
@@ -158,8 +158,8 @@
     <string name="generate_check_mnemonic">请输入您的25词助记种子密语</string>
     <string name="send_notes_hint">私密备注 (选填)</string>
     <string name="send_generate_paymentid_hint">生成</string>
-    <string name="send_send_label">发送门罗币</string>
-    <string name="send_send_timed_label">发送门罗币 (%1$s)</string>
+    <string name="send_send_label">发送门罗经典</string>
+    <string name="send_send_timed_label">发送门罗经典 (%1$s)</string>
     <string name="send_qr_invalid">非QR码</string>
     <string name="send_qr_address_invalid">该支付QR码无效</string>
     <string name="send_address_invalid">该地址无效</string>
@@ -168,7 +168,7 @@
     <string name="send_address_resolve_openalias">解析OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias无DNSSEC - 这可能是个假地址</string>
     <string name="send_title">发送</string>
-    <string name="send_available">余额: %1$s XMR</string>
+    <string name="send_available">余额: %1$s XMC</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金额</string>
     <string name="send_confirm_title">确认</string>

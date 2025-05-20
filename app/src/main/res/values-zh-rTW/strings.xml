@@ -135,7 +135,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 %2$s </string>
 
-    <string name="service_description">monerujo 服務</string>
+    <string name="service_description">XMCWallet 服務</string>
 
     <string name="status_synced">已同步區塊：</string>
     <string name="status_remaining">剩餘區塊</string>
@@ -205,13 +205,13 @@
 
     <string name="send_notes_hint">註記 (選填)</string>
     <string name="send_generate_paymentid_hint">產生</string>
-    <string name="send_send_label">發送我的 Monero</string>
-    <string name="send_send_timed_label">發送我的 Monero (%1$s)</string>
+    <string name="send_send_label">發送Monero-Classic</string>
+    <string name="send_send_timed_label">發送我的 Monero-Classic (%1$s)</string>
     <string name="send_qr_invalid">這不是 QR 碼</string>
     <string name="send_qr_address_invalid">這不是有效的付款 QR 碼</string>
     <string name="send_address_invalid">這不是有效的地址</string>
     <string name="send_title">發送</string>
-    <string name="send_available">餘額：%1$s XMR</string>
+    <string name="send_available">餘額：%1$s XMC</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金額</string>
     <string name="send_confirm_title">確認</string>

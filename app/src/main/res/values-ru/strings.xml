@@ -135,7 +135,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s %2$s неподтвержденно</string>
 
-    <string name="service_description">Служба Monerujo</string>
+    <string name="service_description">Служба XMCWallet</string>
 
     <string name="status_synced">Синхронизировано:</string>
     <string name="status_remaining">Блоков осталось</string>

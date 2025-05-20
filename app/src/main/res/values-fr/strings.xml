@@ -136,7 +136,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s %2$s non confirmés</string>
 
-    <string name="service_description">Service monerujo</string>
+    <string name="service_description">Service XMCWallet</string>
 
     <string name="status_synced">Synchronisé :</string>
     <string name="status_remaining">Blocs restant</string>
