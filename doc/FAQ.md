@@ -17,7 +17,7 @@
 - Support for accounts
 - View wallet details (address, keys, etc.)
 - View transactions including details and copy to clipboard
-- Spend Moneroj (handle with care on mainnet!)
+- Spend XMC (handle with care on mainnet!)
 - Manually import existing wallet (by copying them to the Monerujo folder)
 - Background updating (make sure you exit the wallet to stop updating to save some battery)
 - Access to daemon with username/password and nonstandard port
