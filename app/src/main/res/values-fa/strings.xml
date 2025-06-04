@@ -41,7 +41,7 @@
         وارد کردید.
         </b><br/>
         <i>
-        شما با ارسال XMR با استفاده از سرویس
+        شما با ارسال XMC با استفاده از سرویس
         <b>SideShift.ai</b>
         برای دریافت کننده
         %1$s
@@ -79,14 +79,14 @@
         سرویس
         <b>SideShift.ai</b>
         به شما نرخ تبدیل
-        <b>%3$s %4$s/XMR</b>
+        <b>%3$s %4$s/XMC</b>
         را می‌دهد.
         </i>.
     ]]></string>
 
     <string name="send_available_btc">
     موجودی
-    %2$s %3$s (%1$s XMR)</string>
+    %2$s %3$s (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">
     شناسهٔ پرداخت ادغام شد
@@ -119,10 +119,10 @@
     سرویس SideShift.ai در حال حاضر در دسترس نیست!
     </string>
 
-    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMC</string>
     <string name="text_send_btc_rate">
     (نرخ:
-    %1$s %2$s/XMR)</string>
+    %1$s %2$s/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">
     برای پشتیبانی و رهگیری سفارش به SideShift.ai مراجعه کنید
@@ -236,7 +236,7 @@
     تایید نشده است
     </string>
 
-    <string name="service_description">سرویس XMCWallet</string>
+    <string name="service_description">سرویس  XMCWallet</string>
 
     <string name="status_synced">همگام شد:</string>
     <string name="status_remaining">بلوک باقی مانده</string>
@@ -352,7 +352,7 @@
     <string name="send_title">ارسال</string>
     <string name="send_available">
     موجودی:
-    %1$s XMR</string>
+    %1$s XMC</string>
     <string name="send_address_title">آدرس</string>
     <string name="send_amount_title">مقدار</string>
     <string name="send_confirm_title">تایید</string>
@@ -365,7 +365,7 @@
     <string name="send_total_btc_label">سرجمع (XMR)</string>
     <string name="send_total_label">سرجمع</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s
     هزینهٔ تراکنش
     </string>
@@ -404,7 +404,7 @@
     حداکثر:
     %1$s</string>
     <string name="receive_amount_negative">حداقل: صفر</string>
-    <string name="receive_amount_nan">برای مقدار XMR یک عدد وارد کنید</string>
+    <string name="receive_amount_nan">برای مقدار XMC یک عدد وارد کنید</string>
 
     <string name="details_alert_message">
     داده‌های حساس نمایش داده خواهند شد.
@@ -555,7 +555,7 @@
     </string>
     <string name="onboarding_xmrto_title">هرنوع رمزارز ارسال کنید</string>
     <string name="onboarding_xmrto_information">
-    مونروجو دارای پشتیبانی داخلی SideShift.ai است. فقط یک آدرس BTC، LTC، ETH، DASH یا DOGE را بچسبانید یا اسکن کنید و با خرج کردن XMR، این رمزارزها را ارسال خواهید کرد (آدرس IP ایران در تحریم است).
+    مونروجو دارای پشتیبانی داخلی SideShift.ai است. فقط یک آدرس BTC، LTC، ETH، DASH یا DOGE را بچسبانید یا اسکن کنید و با خرج کردن XMC، این رمزارزها را ارسال خواهید کرد (آدرس IP ایران در تحریم است).
     </string>
     <string name="onboarding_nodes_title">گره‌ها، به میل شما</string>
     <string name="onboarding_nodes_information">
@@ -617,7 +617,7 @@
         <i>
         شما به وسیلهٔ سرویس
         <b>SideShift.ai</b> 
-        با ارسال XMR برای گیرنده
+        با ارسال XMC برای گیرنده
         %2$s
         ارسال خواهید کرد.
         </i>
@@ -660,7 +660,7 @@
     برای استفاده از تور، تنظیمات «اجازه دادن به اجرا در پس‌زمینه» را در Orbot فعال کنید!
     </string>
     <string name="tor_noshift">
-    قابلیت SideShift.ai از تور پشتیبانی نمی‌کند. برای تبدیل XMR تور را غیرفعال کنید.
+    قابلیت SideShift.ai از تور پشتیبانی نمی‌کند. برای تبدیل XMC تور را غیرفعال کنید.
     </string>
 
     <string name="label_seed_offset_encrypt">رمزگذاری بذر (قابلیت آزمایشی)</string>

@@ -36,7 +36,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>நீங்கள் %1$s முகவரியை உள்ளிட்டுள்ளீர்கள்.</b><br/>
-        <i>நீங்கள் XMR ஐ அனுப்புவீர்கள், <b>SideShift.ai</b> சேவையின் மூலம் பெறுநர் %1$s ஐ பெற்றுக்கொள்வார்.</i>
+        <i>நீங்கள் XMC ஐ அனுப்புவீர்கள், <b>SideShift.ai</b> சேவையின் மூலம் பெறுநர் %1$s ஐ பெற்றுக்கொள்வார்.</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">SideShift.ai அமைவி</string>
@@ -51,10 +51,10 @@
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>நீங்கள் %1$s &#8212; %2$s %4$s ஐ அனுப்பலாம்</b>.<br/>
-        <i><b>SideShift.ai</b> ஆனது <b>%3$s %4$s/XMR</b> என்னும் <u>இப்போதைய</u> மாற்று மதிப்பை உங்களுக்கு அளிக்கிறது</i>.
+        <i><b>SideShift.ai</b> ஆனது <b>%3$s %4$s/XMC</b> என்னும் <u>இப்போதைய</u> மாற்று மதிப்பை உங்களுக்கு அளிக்கிறது</i>.
     ]]></string>
 
-    <string name="send_available_btc">இருப்பு: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_available_btc">இருப்பு: %2$s %3$s (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; ஒருங்கிணைந்த பணம் செலுத்தல் ID</string>
     <string name="info_prepare_tx">உங்கள் பரிமாற்றத்தை தயார் செய்கிறது</string>
@@ -72,8 +72,8 @@
     <string name="text_noretry_monero">இப்போது நாம் இங்கு மாட்டிக்கொண்டோம்!</string>
     <string name="text_noretry">அச்சச்சோ, SideShift.ai இப்போது கிடைப்பதற்கு வாய்ப்பு இருப்பதாக தெரியவில்லையே!</string>
 
-    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
-    <string name="text_send_btc_rate">(விலை: %1$s %2$s/XMR)</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMC</string>
+    <string name="text_send_btc_rate">(விலை: %1$s %2$s/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">ஆதரவு &amp; சுவடுபற்றிச் செல்லலுக்கு SideShift.ai பக்கத்தை பார்க்கவும்</string>
     <string name="label_send_btc_xmrto_key_lb">இரகசிய திறவுகோல்\nSideShift.ai</string>
@@ -157,7 +157,7 @@
     <string name="message_copy_txid">பரிமாற்ற ID கிளிப்போர்டில் நகலெடுக்கப்பட்டது!</string>
     <string name="message_nocopy">பாதுகாப்பு காரணங்களுக்காக நகலெடுத்தல் முடக்கப்பட்டுள்ளது!</string>
 
-    <string name="message_exchange_failed">மாற்று மதிப்பை பெற முடியவில்லை!\nXMR/XMR ஐ பயன்படுத்தவும் அல்லது மீண்டும் முயலவும்</string>
+    <string name="message_exchange_failed">மாற்று மதிப்பை பெற முடியவில்லை!\nXMR/XMC ஐ பயன்படுத்தவும் அல்லது மீண்டும் முயலவும்</string>
 
     <string name="generate_title">பணப்பையை உருவாக்கு</string>
     <string name="generate_name_hint">பணப்பை பெயர்</string>
@@ -168,10 +168,10 @@
         <p>விரல்பதிவு சான்றளிப்பை செயல்படுத்துவதன் மூலம் உங்களால், கடவுச்சொல்லை இடாமலேயே பணப்பை இருப்பை பார்க்கவும்,
         பணத்தை பெறவும் இயலும்.</p>
         <p>இருப்பினும் கூடுதல் பாதுகாப்பிற்காக, பணப்பை விவரங்களை பார்க்கும்போதும் அல்லது பணத்தை அனுப்பும்போதும் 
-        monerujo உங்களிடம் கடவுச்சொல்லை கேட்கும்.</p>
+        XMCWallet உங்களிடம் கடவுச்சொல்லை கேட்கும்.</p>
         <strong>பாதுகாப்பு எச்சரிக்கை</strong>
         <p>இறுதியாக, உங்கள் விரல்பதிவை பெறவல்ல ஒருவரால் உங்கள் பணப்பை இருப்பினுள் எட்டி பார்க்க முடியும் 
-        என்பதை monerujo உங்களுக்கு நினைவு கூற விரும்புகிறது.</p>
+        என்பதை XMCWallet உங்களுக்கு நினைவு கூற விரும்புகிறது.</p>
         <p>எடுத்துக்காட்டாக, தீயநோக்குடைய ஒரு பயனரால் நீங்கள் உறக்கத்தில் இருக்கும்போது உங்களுக்கு தெரியாமல் இந்த
         பணப்பையை திறந்து பார்க்க வாய்ப்புள்ளது.</p>
         <strong>இந்த செயல்பாட்டை செயல்படுத்த நீங்கள் உறுதியாக உள்ளீர்களா?</strong>
@@ -212,8 +212,8 @@
 
     <string name="send_notes_hint">தனிபட்ட குறிப்புகள் (விரும்பினால்)</string>
     <string name="send_generate_paymentid_hint">உற்பத்தி செய்</string>
-    <string name="send_send_label">என் அருமை Moneroj வை செலவழிக்கவும்</string>
-    <string name="send_send_timed_label">என் அருமை Moneroj (%1$s) வை செலவழிக்கவும்</string>
+    <string name="send_send_label">என் அருமை XMC  வை செலவழிக்கவும்</string>
+    <string name="send_send_timed_label">என் அருமை XMC  (%1$s) வை செலவழிக்கவும்</string>
     <string name="send_qr_invalid">இது ஒரு QR குறியீடு இல்லை</string>
     <string name="send_qr_address_invalid">இது ஒரு செல்லத்தக்க செலுத்தல் QR குறியீடு இல்லை</string>
     <string name="send_address_invalid">இது ஒரு செல்லத்தக்க முகவரி இல்லை</string>
@@ -222,7 +222,7 @@
     <string name="send_address_resolve_openalias">ஒப்பன் அளியாஸை தீர்த்துக்கொண்டிருக்கிறத&#8230;</string>
     <string name="send_address_no_dnssec">DNSSEC இல்லாத ஒப்பன் அளியாஸ் - முகவரி ஏமாற்றப்பட்டிருக்கலாம்</string>
     <string name="send_title">அனுப்பு</string>
-    <string name="send_available">இருப்பு: %1$s XMR</string>
+    <string name="send_available">இருப்பு: %1$s XMC</string>
     <string name="send_address_title">முகவரி</string>
     <string name="send_amount_title">தொகை</string>
     <string name="send_confirm_title">உறுதிசெய்</string>
@@ -234,7 +234,7 @@
     <string name="send_total_btc_label">மொத்தம் (XMR)</string>
     <string name="send_total_label">மொத்தம்</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s கட்டணம்</string>
 
     <string name="send_create_tx_error_title">பரிமாற்ற உருவாக்கல் பிழை</string>
@@ -359,16 +359,16 @@
     <string name="onboarding_button_next">அடுத்து</string>
     <string name="onboarding_button_ready">நான் தயாராக உள்ளேன்!</string>
 
-    <string name="onboarding_welcome_title">Monerujo விற்கு உங்களை அன்புடன் வரவேற்கிறோம்!</string>
+    <string name="onboarding_welcome_title">XMCWallet விற்கு உங்களை அன்புடன் வரவேற்கிறோம்!</string>
     <string name="onboarding_welcome_information">மொனேரொ பணப்பைகளை உருவாக்கவும், பயன்படுத்தவும் இந்த செயலி உங்களை அனுமதிக்கும். உங்கள் அருமை மொனேரொக்களை இதில் நீங்கள் சேமித்து வைக்கலாம்.</string>
     <string name="onboarding_seed_title">விதையை பாதுகாப்பாக வைக்கவும்</string>
     <string name="onboarding_seed_information">இந்த விதை அதை வைத்திருப்பவருக்கு முழு அணுகலை வழங்குகிறது. இதை நீங்கள் துலைத்து விட்டால், இதை மீட்க எங்களால் உங்களுக்கு உதவ இயலாது. உங்கள் மனம் கவர்ந்த மொனேரொக்களை இழக்க நேரிடும்.</string>
     <string name="onboarding_xmrto_title">கிரிப்டோவை அனுப்பவும்</string>
-    <string name="onboarding_xmrto_information">Monerujo இனுள் SideShift.ai க்கான ஆதரவு உட்பொதிந்துள்ளது. வெறும் BTC, LTC, ETH, DASH அல்லது DOGE க்கான முகவரியை ஒட்டுவதன் மூலம் அல்லது வருடுவதன் மூலம் உங்களால் XMR ஐ செலவழித்து இந்தவகை கிரிப்டோக்களாக அனுப்ப இயலும்.</string>
+    <string name="onboarding_xmrto_information">XMCWallet இனுள் SideShift.ai க்கான ஆதரவு உட்பொதிந்துள்ளது. வெறும் BTC, LTC, ETH, DASH அல்லது DOGE க்கான முகவரியை ஒட்டுவதன் மூலம் அல்லது வருடுவதன் மூலம் உங்களால் XMC ஐ செலவழித்து இந்தவகை கிரிப்டோக்களாக அனுப்ப இயலும்.</string>
     <string name="onboarding_nodes_title">கணுக்கள், இது உங்கள் வழி</string>
     <string name="onboarding_nodes_information">கணுக்கள் உங்களை மொனேரொ வலையமைப்போடு இணைக்கிறது. பொது கணுக்களை பயன்படுத்துகிறீர்களா அல்லது முழுவதுமாக உங்கள் சொந்த கணுவை பயன்படுத்த போகிறீர்களா என்பதை முடிவு செய்யவும்.</string>
     <string name="onboarding_fpsend_title">விரல்பதிவை கொண்டு அனுப்பவும்</string>
-    <string name="onboarding_fpsend_information">இது செயல்படுத்தப்பட்டிருந்தால் வெறும் விரல்பதிவை கொண்டு உங்களால் XMR ஐ அனுப்ப இயலும். கடவுச்சொல்லை கோர, விரல்பதிவு அணுகலை முடக்கவும்.</string>
+    <string name="onboarding_fpsend_information">இது செயல்படுத்தப்பட்டிருந்தால் வெறும் விரல்பதிவை கொண்டு உங்களால் XMC ஐ அனுப்ப இயலும். கடவுச்சொல்லை கோர, விரல்பதிவு அணுகலை முடக்கவும்.</string>
 
     <string name="menu_daynight">இருண்ட பாங்கு</string>
     <string-array name="daynight_themes">
@@ -396,7 +396,7 @@
 
     <string name="info_xmrto_help"><![CDATA[
         <b>%1$s முகவரியை உள்ளிடவும் அல்லது வருடவும்.</b><br/>
-        <i>நீங்கள் XMR ஐ அனுப்புவீர்கள், இது <b>SideShift.ai</b> சேவை மூலம் %2$s வாக பெறுநர் பெற்றுக்கொள்வார்.</i>
+        <i>நீங்கள் XMC ஐ அனுப்புவீர்கள், இது <b>SideShift.ai</b> சேவை மூலம் %2$s வாக பெறுநர் பெற்றுக்கொள்வார்.</i>
     ]]></string>
 
     <string name="info_xmrto_help_xmr"><![CDATA[

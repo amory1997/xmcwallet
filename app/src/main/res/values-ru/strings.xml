@@ -35,7 +35,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Вы ввели %1$s адрес.</b><br/>
-        <i>Отправляйте XMR, получатель получит %1$s, используя сервис SideShift.ai</i>
+        <i>Отправляйте XMC, получатель получит %1$s, используя сервис SideShift.ai</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">Заказ SideShift.ai</string>
@@ -51,17 +51,17 @@
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Вы можете отправить %1$s &#8212; %2$s %4$s</b>.<br/>
-        <i><b>SideShift.ai</b> устанавливает курс обмена <b>%3$s %4$s/XMR</b> <u>в данный момент</u></i>.
+        <i><b>SideShift.ai</b> устанавливает курс обмена <b>%3$s %4$s/XMC</b> <u>в данный момент</u></i>.
     ]]></string>
 
-    <string name="send_available_btc">Баланс: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_available_btc">Баланс: %2$s %3$s (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Интегрированный ID платежа</string>
     <string name="info_prepare_tx">Подготовка транзакции</string>
 
     <string name="label_send_progress_xmrto_create">Создание заказа SideShift.ai</string>
     <string name="label_send_progress_xmrto_query">Запрос заказа SideShift.ai</string>
-    <string name="label_send_progress_create_tx">Подготовка транзакции Monero</string>
+    <string name="label_send_progress_create_tx">Подготовка транзакции Monero-Classic</string>
 
     <string name="label_send_progress_queryparms">Запрос параметров SideShift.ai</string>
 
@@ -72,8 +72,8 @@
     <string name="text_noretry_monero">Теперь мы застряли здесь!</string>
     <string name="text_noretry">Ой-ой! Кажется SideShift.ai недоступен в данный момент!</string>
 
-    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Курс: %1$s %2$s/XMR)</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Курс: %1$s %2$s/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Посетите SideShift.ai для получения помощи &amp;</string>
     <string name="label_send_btc_xmrto_key_lb">Секретный ключ\nSideShift.ai</string>
@@ -154,7 +154,7 @@
     <string name="message_copy_txid">ID транзакции копирован в буфер обмена!</string>
     <string name="message_nocopy">Копирование недоступно по соображениям безопасности!</string>
 
-    <string name="message_exchange_failed">Не удается получить курс обмена!\nИспользуйте XMR/XMR или повторите попытку</string>
+    <string name="message_exchange_failed">Не удается получить курс обмена!\nИспользуйте XMC/XMC или повторите попытку</string>
 
     <string name="generate_title">Создать кошелек</string>
     <string name="generate_name_hint">Имя кошелька</string>
@@ -164,10 +164,10 @@
         <strong>Аутентификация по отпечаткам пальцев</strong>
         <p>С поддержкой аутентификации по отпечаткам пальцев, вы можете просматривать баланс и получать средства
         без ввода пароля.</p>
-        <p>Но для дополнительной безопасности, Monerujo потребует от вас ввести пароль при
+        <p>Но для дополнительной безопасности, XMCWallet потребует от вас ввести пароль при
         просмотре деталей кошелька или отправке средств.</p>
         <strong>Предупреждение системы безопасности</strong>
-        <p>Monerujo хочет напомнить вам, что любой, кто может получить ваш отпечаток пальца, будет
+        <p>XMCWallet хочет напомнить вам, что любой, кто может получить ваш отпечаток пальца, будет
         обладать возможностью, заглянуть в баланс вашего кошелька.</p>
         <p>Например, злоумышленник может заглянуть в ваш кошелек, когда вы спите.</p>
         <strong>Вы уверены, что хотите включить эту функцию?</strong>
@@ -208,13 +208,13 @@
 
     <string name="send_notes_hint">Персональная заметка (необязательно)</string>
     <string name="send_generate_paymentid_hint">Генерация</string>
-    <string name="send_send_label">Потратьте мои сладкие Moneroj</string>
-    <string name="send_send_timed_label">Потратьте мои сладкие Moneroj (%1$s)</string>
+    <string name="send_send_label">Потратьте мои сладкие XMC</string>
+    <string name="send_send_timed_label">Потратьте мои сладкие XMC (%1$s)</string>
     <string name="send_qr_invalid">Это не QR-код</string>
     <string name="send_qr_address_invalid">Недопустимый платеж по QR-коду</string>
     <string name="send_address_invalid">Недопустимый адрес</string>
     <string name="send_title">Отправка</string>
-    <string name="send_available">Баланс: %1$s XMR</string>
+    <string name="send_available">Баланс: %1$s XMC</string>
     <string name="send_address_title">Адрес</string>
     <string name="send_amount_title">Сумма</string>
     <string name="send_confirm_title">Подтверждение</string>
@@ -226,7 +226,7 @@
     <string name="send_total_btc_label">Всего (XMR)</string>
     <string name="send_total_label">Всего</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Комиссия</string>
 
     <string name="send_create_tx_error_title">Ошибка создания транзакции</string>
@@ -258,7 +258,7 @@
 
     <string name="receive_amount_too_big">Макс. %1$s</string>
     <string name="receive_amount_negative">Мин. 0</string>
-    <string name="receive_amount_nan">Не числовое значение XMR</string>
+    <string name="receive_amount_nan">Не числовое значение XMC</string>
 
     <string name="details_alert_message">Сейчас будут показаны конфиденциальные данные. Оглянись вокруг!</string>
     <string name="details_alert_yes">Я в безопасности</string>
@@ -354,7 +354,7 @@
 
     <string name="label_restoreheight">Высота восстановления</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Запуск приложения Monero на %1$s</string>
+    <string name="toast_ledger_start_app">Запуск приложения Monero-Classic на %1$s</string>
 
     <string name="menu_rescan">Пересканировать!</string>
 
@@ -362,16 +362,16 @@
     <string name="onboarding_button_next">Далее</string>
     <string name="onboarding_button_ready">Я готов!</string>
 
-    <string name="onboarding_welcome_title">Добро пожаловать в Monerujo!</string>
-    <string name="onboarding_welcome_information">Данное приложение позволяет создавать и использовать кошельки Monero. Вы можете хранить ваши сладкие moneroj в них.</string>
+    <string name="onboarding_welcome_title">Добро пожаловать в XMCWallet!</string>
+    <string name="onboarding_welcome_information">Данное приложение позволяет создавать и использовать кошельки Monero-Classic. Вы можете хранить ваши сладкие XMC в них.</string>
     <string name="onboarding_seed_title">Храните свои ключи в безопасности</string>
-    <string name="onboarding_seed_information">Секретная фраза дает полный доступ к кошельку. Если вы её потеряете, мы не сможем её восстановить и вы потеряете ваши moneroj.</string>
+    <string name="onboarding_seed_information">Секретная фраза дает полный доступ к кошельку. Если вы её потеряете, мы не сможем её восстановить и вы потеряете ваши XMC.</string>
     <string name="onboarding_xmrto_title">Отправка других криптовалют</string>
-    <string name="onboarding_xmrto_information">Monerujo имеет поддержку SideShift.ai. Просто вставьте (или просканируйте) адрес BTC, LTC, ETH, DASH или DOGE и вы будете отправлять эти криптовалюты, тратя XMR.</string>
+    <string name="onboarding_xmrto_information">XMCWallet имеет поддержку SideShift.ai. Просто вставьте (или просканируйте) адрес BTC, LTC, ETH, DASH или DOGE и вы будете отправлять эти криптовалюты, тратя XMC.</string>
     <string name="onboarding_nodes_title">Узлы, узлы, узлы…</string>
-    <string name="onboarding_nodes_information">Узлы позволяют подключаться к сети Monero. Выбирайте между общедоступными узлами или используйте свой собственный для безопасности IP адреса.</string>
+    <string name="onboarding_nodes_information">Узлы позволяют подключаться к сети Monero-Classic. Выбирайте между общедоступными узлами или используйте свой собственный для безопасности IP адреса.</string>
     <string name="onboarding_fpsend_title">Отправка с помощью отпечатка пальца</string>
-    <string name="onboarding_fpsend_information">Теперь вы можете отправлять XMR с помощью отпечатка пальца, если вы его включили. Чтобы запросить пароль, просто отключите доступ к отпечаткам пальцев.</string>
+    <string name="onboarding_fpsend_information">Теперь вы можете отправлять XMC с помощью отпечатка пальца, если вы его включили. Чтобы запросить пароль, просто отключите доступ к отпечаткам пальцев.</string>
 
     <string name="menu_daynight">Тема</string>
     <string-array name="daynight_themes">
@@ -399,11 +399,11 @@
 
     <string name="info_xmrto_help"><![CDATA[
         <b>Введите или просканируйте адрес %1$s.</b><br/>
-        <i>Вы отправите XMR, а получатель получит %2$s с помощью серсива <b>SideShift.ai</b>.</i>
+        <i>Вы отправите XMC, а получатель получит %2$s с помощью серсива <b>SideShift.ai</b>.</i>
     ]]></string>
 
     <string name="info_xmrto_help_xmr"><![CDATA[
-        <b>Введите или просканируйте адрес Monero.</b>
+        <b>Введите или просканируйте адрес Monero-Classic.</b>
     ]]></string>
 
     <string name="subbaddress_title">Подадреса</string>
@@ -427,7 +427,7 @@
     <string name="node_tor_error">Необходим Tor</string>
     <string name="node_waiting">\u00A0ОЖИДАНИЕ УЗЛА\u00A0</string>
     <string name="tor_enable_background">Необходимо выбрать "Allow Background Starts" в настройках Orbot для использования Tor!</string>
-    <string name="tor_noshift">SideShift.ai не поддерживает Tor.\nОтключите Tor для обмена XMR.</string>
+    <string name="tor_noshift">SideShift.ai не поддерживает Tor.\nОтключите Tor для обмена XMC.</string>
 
     <string name="label_seed_offset_encrypt">Шифрование фразы (ЭКСПЕРЕМЕНТАЛЬНО)</string>
     <string name="seed_offset_hint">Смещение фразы (необязательно)</string>

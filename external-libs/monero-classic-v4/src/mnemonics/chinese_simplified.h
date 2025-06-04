@@ -72,7 +72,7 @@ namespace Language
   class Chinese_Simplified: public Base
   {
   public:
-    Chinese_Simplified(): Base("简体中文 (中国)", "Chinese (simplified)", {}, 1)
+    Chinese_Simplified(): Base("中文 (简体)", "Chinese (simplified)", {}, 1)
     {
       static constexpr const char * const words[NWORDS] =
       {

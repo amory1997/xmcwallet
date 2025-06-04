@@ -43,6 +43,11 @@ public class LocaleHelper {
     }
 
     public static String getDisplayName(Locale locale, boolean sentenceCase) {
+        if (locale.equals(Locale.SIMPLIFIED_CHINESE)) {
+            return "中文(简体)";
+        } else if (locale.equals(Locale.TRADITIONAL_CHINESE)) {
+            return "中文(繁体)";
+        }
         String displayName = locale.getDisplayName(locale);
 
         if (sentenceCase) {

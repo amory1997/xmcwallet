@@ -35,7 +35,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Hai inserito un indirizzo %1$s.</b><br/>
-        <i>Invierai XMR e il destinatario riceverà %1$s tramite il servizio <b>SideShift.ai</b>.</i>
+        <i>Invierai XMC e il destinatario riceverà %1$s tramite il servizio <b>SideShift.ai</b>.</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">Ordine SideShift.ai</string>
@@ -51,17 +51,17 @@
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Puoi inviare %1$s &#8212; %2$s %4$s</b>.<br/>
-        <i><b>SideShift.ai</b> ti sta <u>attualmente</u> concedendo un tasso di cambio di <b>%3$s %4$s/XMR</b></i>.
+        <i><b>SideShift.ai</b> ti sta <u>attualmente</u> concedendo un tasso di cambio di <b>%3$s %4$s/XMC</b></i>.
     ]]></string>
 
-    <string name="send_available_btc">Saldo: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_available_btc">Saldo: %2$s %3$s (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; ID pagamento integrato</string>
     <string name="info_prepare_tx">Preparando la tua transazione</string>
 
     <string name="label_send_progress_xmrto_create">Creando l\'ordine SideShift.ai</string>
     <string name="label_send_progress_xmrto_query">Richiedendo l\'ordine SideShift.ai</string>
-    <string name="label_send_progress_create_tx">Preparando la transazione Monero</string>
+    <string name="label_send_progress_create_tx">Preparando la transazione Monero-Classic</string>
 
     <string name="label_send_progress_queryparms">Richiedendo i parametri SideShift.ai</string>
 
@@ -72,8 +72,8 @@
     <string name="text_noretry_monero">Ora siamo bloccati qui!!</string>
     <string name="text_noretry">Oh Oh, SideShift.ai sembra non essere disponibile in questo momento!</string>
 
-    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Tasso: %1$s %2$s/XMR)</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Tasso: %1$s %2$s/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Visita SideShift.ai per supporto e tracciamento</string>
     <string name="label_send_btc_xmrto_key_lb">Chiave segreta\nSideShift.ai</string>
@@ -155,7 +155,7 @@
     <string name="message_copy_txid">ID transazione copiato negli appunti!</string>
     <string name="message_nocopy">Copia disabilitata per ragioni di sicurezza!</string>
 
-    <string name="message_exchange_failed">Impossibile recuperare il tasso di cambio!\nUsa XMR/XMR o prova di nuovo</string>
+    <string name="message_exchange_failed">Impossibile recuperare il tasso di cambio!\nUsa XMC/XMC o prova di nuovo</string>
 
     <string name="generate_title">Crea portafoglio</string>
     <string name="generate_name_hint">Nome del portafoglio</string>
@@ -165,10 +165,10 @@
         <strong>Autenticazione tramite impronta digitale</strong>
         <p>Abilitando l\'autenticazione tramite impronta digitale, puoi visualizzare il tuo saldo e ricevere fondi
         senza inserire la password.</p>
-        <p>Per sicurezza aggiuntiva, Monerujo richiederà comunque di inserire la password per visualizzare i dettagli
+        <p>Per sicurezza aggiuntiva, XMCWallet richiederà comunque di inserire la password per visualizzare i dettagli
         del tuo portafoglio o inviare denaro.</p>
         <strong>Avviso di sicurezza</strong>
-        <p>Infine, Monerujo ci tiene a ricordarti che chiunque sia in grado di procurarsi la tua impronta digitale
+        <p>Infine, XMCWallet ci tiene a ricordarti che chiunque sia in grado di procurarsi la tua impronta digitale
         sarà in grado anche di sbirciare il saldo del tuo portafoglio.</p>
         <p>Per esempio, un utente malintenzionato potrebbe aprire il tuo portafoglio mentre dormi.</p>
         <strong>Sei sicuro/a di voler abilitare questa funzione?</strong>
@@ -209,13 +209,13 @@
 
     <string name="send_notes_hint">Note private (opzionali)</string>
     <string name="send_generate_paymentid_hint">Genera</string>
-    <string name="send_send_label">Spendi i miei bei Moneroj</string>
-    <string name="send_send_timed_label">Spendi i miei bei Moneroj (%1$s)</string>
+    <string name="send_send_label">Spendi i miei bei XMC</string>
+    <string name="send_send_timed_label">Spendi i miei bei XMC (%1$s)</string>
     <string name="send_qr_invalid">Non è un codice QR</string>
     <string name="send_qr_address_invalid">Non è un codice QR pagamento valido</string>
     <string name="send_address_invalid">Non è un indirizzo valido</string>
     <string name="send_title">Invia</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s XMC</string>
     <string name="send_address_title">Indirizzo</string>
     <string name="send_amount_title">Ammontare</string>
     <string name="send_confirm_title">Conferma</string>
@@ -227,7 +227,7 @@
     <string name="send_total_btc_label">Totale (XMR)</string>
     <string name="send_total_label">Totale</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s di commissione</string>
 
     <string name="send_create_tx_error_title">Errore nella creazione della transazione</string>
@@ -353,7 +353,7 @@
 
     <string name="label_restoreheight">Altezza di ripristino</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Avvia app Monero su %1$s</string>
+    <string name="toast_ledger_start_app">Avvia app Monero-Classic su %1$s</string>
 
     <string name="menu_rescan">Riscansiona!</string>
 
@@ -361,16 +361,16 @@
     <string name="onboarding_button_next">Next</string>
     <string name="onboarding_button_ready">Sono pronto!</string>
 
-    <string name="onboarding_welcome_title">Benvenuto su Monerujo!</string>
-    <string name="onboarding_welcome_information">Questa app ti permette di creare ed usare portafogli di Monero. Puoi conservare i tuoi bei moneroj all\'interno.</string>
+    <string name="onboarding_welcome_title">Benvenuto su XMCWallet!</string>
+    <string name="onboarding_welcome_information">Questa app ti permette di creare ed usare portafogli di Monero-Classic. Puoi conservare i tuoi bei XMC all\'interno.</string>
     <string name="onboarding_seed_title">Tieni al sicuro il tuo seed</string>
     <string name="onboarding_seed_information">Il seed permette l\'accesso al portafogli a chiunque lo abbia. Se lo perdi, non possiamo aiutarti a recuperarlo.</string>
     <string name="onboarding_xmrto_title">Invia altre crypto</string>
-    <string name="onboarding_xmrto_information">Monerujo supporta SideShift.ai. Copia o scansiona un indirizzo BTC, LTC, ETH, DASH o DOGE per inviare una di queste crypto spendendo XMR.</string>
+    <string name="onboarding_xmrto_information">XMCWallet supporta SideShift.ai. Copia o scansiona un indirizzo BTC, LTC, ETH, DASH o DOGE per inviare una di queste crypto spendendo XMC.</string>
     <string name="onboarding_nodes_title">Nodi, a modo tuo</string>
-    <string name="onboarding_nodes_information">I nodi ti connettono alla rete di Monero. Scegli tra i vari nodi pubblici oppure usa il tuo.</string>
+    <string name="onboarding_nodes_information">I nodi ti connettono alla rete di Monero-Classic. Scegli tra i vari nodi pubblici oppure usa il tuo.</string>
     <string name="onboarding_fpsend_title">Invia con impronta</string>
-    <string name="onboarding_fpsend_information">Ora puoi inviare XMR con la tua impronta digitale. Per richiedere la password, disabilita l\'accesso all\'impronta.</string>
+    <string name="onboarding_fpsend_information">Ora puoi inviare XMC con la tua impronta digitale. Per richiedere la password, disabilita l\'accesso all\'impronta.</string>
 
     <string name="menu_daynight">Modalità scura</string>
     <string-array name="daynight_themes">
@@ -398,11 +398,11 @@
 
     <string name="info_xmrto_help"><![CDATA[
     <b>Inserisci o scansiona un indirizzo %1$s.</b><br/>
-        <i>Invierai XMR e il destinatario otterrà %2$s tramite il servizio <b>SideShift.ai</b>.</i>
+        <i>Invierai XMC e il destinatario otterrà %2$s tramite il servizio <b>SideShift.ai</b>.</i>
     ]]></string>
 
     <string name="info_xmrto_help_xmr"><![CDATA[
-        <b>Inserisci o scansiona un indirizzo di Monero.</b>
+        <b>Inserisci o scansiona un indirizzo di Monero-Classic.</b>
     ]]></string>
 
     <string name="subbaddress_title">Sottoindirizzi</string>
@@ -426,7 +426,7 @@
     <string name="node_tor_error">Tor required</string>
     <string name="node_waiting">\u00A0WAITING FOR NODE\u00A0</string>
     <string name="tor_enable_background">"Allow Background Starts" in Orbot Settings to use Tor!</string>
-    <string name="tor_noshift">SideShift.ai doesn\'t support Tor.\nDisable Tor to swap XMR.</string>
+    <string name="tor_noshift">SideShift.ai doesn\'t support Tor.\nDisable Tor to swap XMC.</string>
 
     <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
     <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>

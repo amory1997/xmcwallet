@@ -60,7 +60,7 @@
 
     <string name="label_send_progress_xmrto_create">Creant ordre SideShift.ai</string>
     <string name="label_send_progress_xmrto_query">Consultant ordre SideShift.ai</string>
-    <string name="label_send_progress_create_tx">Preparant transacció Monero</string>
+    <string name="label_send_progress_create_tx">Preparant transacció Monero-Classic</string>
 
     <string name="label_send_progress_queryparms">Consultant paràmetres SideShift.ai</string>
 
@@ -165,10 +165,10 @@
         <strong>Autenticació d’empremta digitals</strong>
         <p>Amb l’autenticació d’empremta digital habilitada podeu veure el balanç del portamonedes i rebre fons
          sense la necessitat d’introduir la contrasenya.</p>
-        <p>Per a més seguretat, monerujo encara us demanarà que introduïu la contrasenya per
+        <p>Per a més seguretat, XMCWallet encara us demanarà que introduïu la contrasenya per
          veure els detalls del portamonedes o enviar fons.</p>
         <strong>Advertència de seguretat</strong>
-        <p>Finalment, monerujo vol recordar-li que qualsevol que pugui obtenir la seva empremta digital serà
+        <p>Finalment, XMCWallet vol recordar-li que qualsevol que pugui obtenir la seva empremta digital serà
          capaç d’observar el balanç del seu portamonedes.</p>
         <p>Per exemple, un usuari maliciós del vostre voltant pot obrir la vostra cartera quan esteu dormint.</p>
         <strong>Esteu segurs d’habilitar aquesta funcionalitat?</strong>
@@ -209,8 +209,8 @@
 
     <string name="send_notes_hint">Notes privades (opcional)</string>
     <string name="send_generate_paymentid_hint">Generar</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Gastar els meus estimats Moneroj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet Monero-Classicj</string>
+    <string name="send_send_timed_label">Gastar els meus estimats Monero-Classicj (%1$s)</string>
     <string name="send_qr_invalid">No es un codi QR</string>
     <string name="send_qr_address_invalid">No es un codi de pagament QR vàlid</string>
     <string name="send_address_invalid">No es una adreça vàlida</string>
@@ -347,7 +347,7 @@
 
     <string name="label_restoreheight">Restablir Alçada</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start Monero-Classic App on %1$s</string>
 
     <string name="menu_rescan">Rescan!</string>
 
@@ -355,14 +355,14 @@
     <string name="onboarding_button_next">Next</string>
     <string name="onboarding_button_ready">I\'m ready!</string>
 
-    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
-    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to XMCWallet!</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero-Classic wallets. You can store your sweet Monero-Classicj in them.</string>
     <string name="onboarding_seed_title">Keep your seed safe</string>
-    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved Monero-Classicj.</string>
     <string name="onboarding_xmrto_title">Send Crypto</string>
-    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_information">XMCWallet has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
     <string name="onboarding_nodes_title">Nodes, your way</string>
-    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero-Classic network. Choose between public nodes or go full cypherpunk using your own.</string>
     <string name="onboarding_fpsend_title">Send with fingerprint</string>
     <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
 
@@ -396,7 +396,7 @@
     ]]></string>
 
     <string name="info_xmrto_help_xmr"><![CDATA[
-        <b>Please enter or scan a Monero address.</b>
+        <b>Please enter or scan a Monero-Classic address.</b>
     ]]></string>
 
     <string name="subbaddress_title">Subaddresses</string>
