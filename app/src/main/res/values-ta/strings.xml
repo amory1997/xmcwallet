@@ -157,7 +157,7 @@
     <string name="message_copy_txid">பரிமாற்ற ID கிளிப்போர்டில் நகலெடுக்கப்பட்டது!</string>
     <string name="message_nocopy">பாதுகாப்பு காரணங்களுக்காக நகலெடுத்தல் முடக்கப்பட்டுள்ளது!</string>
 
-    <string name="message_exchange_failed">மாற்று மதிப்பை பெற முடியவில்லை!\nXMR/XMC ஐ பயன்படுத்தவும் அல்லது மீண்டும் முயலவும்</string>
+    <string name="message_exchange_failed">மாற்று மதிப்பை பெற முடியவில்லை!\nXMC/XMC ஐ பயன்படுத்தவும் அல்லது மீண்டும் முயலவும்</string>
 
     <string name="generate_title">பணப்பையை உருவாக்கு</string>
     <string name="generate_name_hint">பணப்பை பெயர்</string>
@@ -229,9 +229,9 @@
     <string name="send_success_title">முடிந்தது</string>
 
     <string name="send_amount_label">தொகை</string>
-    <string name="send_fee_btc_label">கட்டணம் (XMR)</string>
+    <string name="send_fee_btc_label">கட்டணம் (XMC)</string>
     <string name="send_fee_label">கட்டணம்</string>
-    <string name="send_total_btc_label">மொத்தம் (XMR)</string>
+    <string name="send_total_btc_label">மொத்தம் (XMC)</string>
     <string name="send_total_label">மொத்தம்</string>
 
     <string name="send_amount">%1$s XMC</string>

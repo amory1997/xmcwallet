@@ -195,9 +195,9 @@
     <string name="send_success_title">Έγινε</string>
 
     <string name="send_amount_label">Ποσό</string>
-    <string name="send_fee_btc_label">Κόμιστρο (XMR)</string>
+    <string name="send_fee_btc_label">Κόμιστρο (XMC)</string>
     <string name="send_fee_label">Κόμιστρο</string>
-    <string name="send_total_btc_label">Σύνολο (XMR)</string>
+    <string name="send_total_btc_label">Σύνολο (XMC)</string>
     <string name="send_total_label">Σύνολο</string>
 
     <string name="send_amount">%1$s XMC</string>

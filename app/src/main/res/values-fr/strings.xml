@@ -223,9 +223,9 @@
     <string name="send_success_title">Terminé</string>
 
     <string name="send_amount_label">Montant</string>
-    <string name="send_fee_btc_label">Frais (XMR)</string>
+    <string name="send_fee_btc_label">Frais (XMC)</string>
     <string name="send_fee_label">Frais</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
     <string name="send_amount">%1$s XMC</string>

@@ -217,9 +217,9 @@
     <string name="send_success_title">Klaar</string>
 
     <string name="send_amount_label">Bedrag</string>
-    <string name="send_fee_btc_label">Vergoeding (XMR)</string>
+    <string name="send_fee_btc_label">Vergoeding (XMC)</string>
     <string name="send_fee_label">Vergoeding</string>
-    <string name="send_total_btc_label">Totaal (XMR)</string>
+    <string name="send_total_btc_label">Totaal (XMC)</string>
     <string name="send_total_label">Totaal</string>
 
     <string name="send_amount">%1$s XMC</string>

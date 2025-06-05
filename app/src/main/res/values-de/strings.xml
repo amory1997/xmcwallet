@@ -222,9 +222,9 @@
     <string name="send_success_title">Fertig</string>
 
     <string name="send_amount_label">Betrag</string>
-    <string name="send_fee_btc_label">Gebühr (XMR)</string>
+    <string name="send_fee_btc_label">Gebühr (XMC)</string>
     <string name="send_fee_label">Gebühr</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
     <string name="send_amount">%1$sXMC</string>

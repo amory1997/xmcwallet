@@ -227,9 +227,9 @@
     <string name="send_success_title">Urađeno</string>
 
     <string name="send_amount_label">Suma</string>
-    <string name="send_fee_btc_label">Naknada (XMR)</string>
+    <string name="send_fee_btc_label">Naknada (XMC)</string>
     <string name="send_fee_label">Naknada</string>
-    <string name="send_total_btc_label">Ukupno (XMR)</string>
+    <string name="send_total_btc_label">Ukupno (XMC)</string>
     <string name="send_total_label">Ukupno</string>
 
     <string name="send_amount">%1$s XMC</string>

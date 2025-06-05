@@ -1,30 +1,55 @@
 apply plugin: 'com.android.application'
+// Apply the Android application plugin
 
 android {
     compileSdkVersion 33
+    // Android SDK version to compile against
+
     buildToolsVersion '33.0.2'
+    // Build tools version
+
     ndkVersion '17.2.4988734'
+    // NDK version (for C/C++ code)
+
     defaultConfig {
         applicationId "com.m2049r.xmrwallet"
+        // Application package name (unique identifier)
+
         minSdkVersion 21
+        // Minimum supported Android version
+
         targetSdkVersion 31
+        // Target Android version
+
         versionCode 3200
-        versionName "3.2.0 'Decoy Selection'"
+        // Internal version code (integer, must increment for each release)，Upgrade check: Google Play and the Android system use this value to determine whether an app is a newer version.
+        
+        versionName "3.2.0.2 'Decoy Selection'"
+        // Version name shown to users (string)
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // Test runner
+
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++11"
+                // C++ compile flags
                 arguments "-DANDROID_STL=c++_shared", "-DUSE_XMC=ON"
+                // Arguments passed to CMake
             }
         }
     }
+
     bundle {
         language {
             enableSplit = false
         }
     }
+    // App Bundle config: do not split language resources
 
     flavorDimensions 'type', 'net'
+    // Define product flavor dimensions
+
     productFlavors {
         mainnet {
             dimension 'net'
@@ -48,23 +73,29 @@ android {
             dimension 'type'
         }
     }
+    // Define different product flavors (mainnet, stagenet, devnet, alpha, prod)
 
     buildTypes {
         release {
             minifyEnabled false
+            // Enable/disable code shrinking (ProGuard)
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // ProGuard rules files
         }
         debug {
             applicationIdSuffix ".debug"
+            // Debug build package name suffix
         }
         applicationVariants.all { variant ->
             variant.buildConfigField "String", "ID_A", "\"" + getId("ID_A") + "\""
+            // Dynamically add BuildConfig field
         }
     }
 
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
+            // Path to CMake configuration file
         }
     }
 
@@ -76,9 +107,11 @@ android {
             universalApk true
         }
     }
+    // Configure multi-ABI (architecture) builds
 
     // Map for the version code that gives each ABI a value.
     def abiCodes = ['armeabi-v7a': 1, 'arm64-v8a': 2, 'x86': 3, 'x86_64': 4]
+    // Define version code suffix for each ABI
 
     // Enumerate translated locales
     def availableLocales = ["en"]
@@ -87,12 +120,13 @@ android {
         if (languageTag != "night")
             availableLocales.add(languageTag)
     }
+    // Automatically collect all translated language resources
 
     // APKs for the same app that all have the same version information.
     android.applicationVariants.all { variant ->
         // Update string resource: available_locales
         variant.resValue("string", "available_locales", availableLocales.join(","))
-        // Assigns a different version code for each output APK.
+        // Assign a different version code for each output APK.
         variant.outputs.all {
             output ->
                 def abiName = output.getFilter(com.android.build.OutputFile.ABI)
@@ -106,12 +140,16 @@ android {
                 outputFileName = "$rootProject.ext.apkName-" + v + "_" + abiName + ".apk"
         }
     }
+    // Generate different APK file names and version codes for each ABI
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    // Java version compatibility
+
     namespace 'com.m2049r.xmrwallet'
+    // AndroidX namespace
 }
 
 static def getId(name) {
@@ -119,9 +157,11 @@ static def getId(name) {
     props.load(new FileInputStream(new File('monerujo.id')))
     return props[name]
 }
+// Read properties from monerujo.id for BuildConfig
 
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    // Kotlin BOM
 
     implementation 'androidx.core:core:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -131,18 +171,20 @@ dependencies {
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.preference:preference:1.2.0'
-
     implementation 'com.google.android.material:material:1.9.0'
+    // Common AndroidX and Material components
 
     implementation 'me.dm7.barcodescanner:zxing:1.9.8'
     implementation "com.squareup.okhttp3:okhttp:4.9.3"
     implementation "io.github.rburgst:okhttp-digest:2.6"
     implementation "com.jakewharton.timber:timber:5.0.1"
+    // Third-party libraries (barcode, network, logging, etc.)
 
     implementation 'info.guardianproject.netcipher:netcipher:2.1.0'
     //implementation 'info.guardianproject.netcipher:netcipher-okhttp3:2.1.0'
     implementation fileTree(dir: 'libs/classes', include: ['*.jar'])
     implementation 'com.nulab-inc:zxcvbn:1.5.2'
+    // Other dependencies
 
     implementation 'dnsjava:dnsjava:2.1.9'
     implementation 'org.jitsi:dnssecjava:1.2.0'
@@ -155,7 +197,9 @@ dependencies {
     testImplementation "com.squareup.okhttp3:mockwebserver:4.9.3"
     testImplementation 'org.json:json:20211205'
     testImplementation 'net.jodah:concurrentunit:0.4.6'
+    // Test dependencies
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    // Compile-time only dependency for lombok
 }

@@ -155,7 +155,7 @@
     <string name="message_copy_txid">取引IDがクリップボードにコピーされました!</string>
     <string name="message_nocopy">セキュリティ上の理由でコピーは無効化されています!</string>
 
-    <string name="message_exchange_failed">取引レートを取得できません!\nXMR/XMC を使うかもう一度試してください</string>
+    <string name="message_exchange_failed">取引レートを取得できません!\nXMC/XMC を使うかもう一度試してください</string>
 
     <string name="generate_title">ウォレット作成</string>
     <string name="generate_name_hint">ウォレットの名前</string>
@@ -225,9 +225,9 @@
     <string name="send_success_title">完了</string>
 
     <string name="send_amount_label">数量</string>
-    <string name="send_fee_btc_label">手数料 (XMR)</string>
+    <string name="send_fee_btc_label">手数料 (XMC)</string>
     <string name="send_fee_label">手数料</string>
-    <string name="send_total_btc_label">合計 (XMR)</string>
+    <string name="send_total_btc_label">合計 (XMC)</string>
     <string name="send_total_label">合計</string>
 
     <string name="send_amount">%1$s XMC</string>

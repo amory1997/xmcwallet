@@ -221,9 +221,9 @@
     <string name="send_success_title">Готово</string>
 
     <string name="send_amount_label">Сумма</string>
-    <string name="send_fee_btc_label">Комиссия (XMR)</string>
+    <string name="send_fee_btc_label">Комиссия (XMC)</string>
     <string name="send_fee_label">Комиссия</string>
-    <string name="send_total_btc_label">Всего (XMR)</string>
+    <string name="send_total_btc_label">Всего (XMC)</string>
     <string name="send_total_label">Всего</string>
 
     <string name="send_amount">%1$s XMC</string>

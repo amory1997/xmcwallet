@@ -68,7 +68,7 @@
         请务必抄写该密码。当你重置手机或重新安裝APP时，你将会需要用它来重新访问钱包。<br/>
         <h3>CrAzYpass加密</h3>
         若你的密码显示为4组共52个字母和数字的字符串，恭喜你!
-        你的钱包文件正由256位的密钥所保护着，这是该设备基于你自己设定的密码所产生的(新建或更改密码时皆会产生)。
+        你的钱包文件正由256位的密钥所保护着，这是该设备基于你自己设定的密码所產生的(新建或更改密码时皆会產生)。
         如此可以大幅提高黑客破解钱包文件的难度。<br/>
         所有新创建的钱包都预设会启用这个加密功能。
         <h3>旧密码</h3>
@@ -231,24 +231,19 @@
 
     <string name="help_ok">我明白了!</string> <!-- Note: "Got it" as in "I understand this" -->
 
-    <string name="help_nok">Nah…</string> <!-- Note: "Nah..." as in "I don't want this" -->
-    <string name="help_getorbot">Get Orbot!</string>
+    <string name="help_nok">呃…</string> <!-- Note: "Nah..." as in "I don't want this" -->
+    <string name="help_getorbot">获取 Orbot！</string>
     <string name="help_tor"><![CDATA[
         <h1>Tor</h1>
-        <p>Tor, short for The Onion Router, is free and open-source software for enabling anonymous
-        communication.</p>
-        <p>Enabling Tor will route your connection through several relays and hide your IP address
-        from the node. Keep in mind this is more private but also <b>slower</b>.</p>
-        <p>In order to use Tor with XMCWallet, you\'ll need Orbot installed on your phone. After
-        installing Orbot, make sure to enable it by clicking the network icon on the wallet list
-        screen.</p>
-        <p>If you have issues connecting with Tor, try to get a new Identity in the Orbot App (icon
-        on the top right).</p>
+        <p>Tor（洋葱路由器）是一款免费且开源的软件，用于实现匿名通信。</p>
+        <p>启用 Tor 后，你的连接会通过多个中继节点，从而隐藏你的 IP 地址，提高隐私性，但速度会变慢。</p>
+        <p>要在 XMCWallet 中使用 Tor，你需要在手机上安装 Orbot。安装完成后，请在钱包列表页面点击网络图标以启用。</p>
+        <p>如果你在连接 Tor 时遇到问题，请尝试在 Orbot 应用中获取新的身份（右上角的图标）。</p>
     ]]></string>
 
     <string name="help_tor_enable"><![CDATA[
-        <h1>Tor Node</h1>
-        <p>This is an .onion node. In order to use it, you must enable Tor mode by touching the
-        <img src="ic_network_clearnet"/> icon near the top of the Wallet List page.</p>
+        <h1>Tor 节点</h1>
+        <p>这是一个 .onion 节点。要使用它，你必须在钱包列表页面顶部点击
+        <img src="ic_network_clearnet"/> 图标以启用 Tor 模式。</p>
     ]]></string>
 </resources>

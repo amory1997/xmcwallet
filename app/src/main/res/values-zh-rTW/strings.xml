@@ -218,9 +218,9 @@
     <string name="send_success_title">完成</string>
 
     <string name="send_amount_label">金額</string>
-    <string name="send_fee_btc_label">手續費 (XMR)</string>
+    <string name="send_fee_btc_label">手續費 (XMC)</string>
     <string name="send_fee_label">手續費</string>
-    <string name="send_total_btc_label">總計 (XMR)</string>
+    <string name="send_total_btc_label">總計 (XMC)</string>
     <string name="send_total_label">總計</string>
 
     <string name="send_amount">%1$s XMC</string>
@@ -399,48 +399,48 @@
         <b>請輸入或掃描一個 Monero-Classic 地址。</b>
     ]]></string>
 
-    <string name="subbaddress_title">Subaddresses</string>
-    <string name="subbaddress_name_hint">Subaddress Name</string>
-    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
-    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
-    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
-    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
-    <string name="subaddress_select_label">Select a subaddress</string>
-    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subbaddress_title">子地址</string>
+    <string name="subbaddress_name_hint">子地址名稱</string>
+    <string name="max_subaddress_warning">未使用的地址過多 - 請先使用部分地址以建立更多！</string>
+    <string name="max_account_warning">未使用的帳戶過多 - 請先使用部分帳戶以建立更多！</string>
+    <string name="subaddress_tx_label">此子地址的交易：</string>
+    <string name="subaddress_notx_label">此子地址尚無交易</string>
+    <string name="subaddress_select_label">請選擇一個子地址</string>
+    <string name="subaddress_details_hint">長按查看詳細資訊</string>
 
-    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
-    <string name="menu_delete">Delete</string><!-- like: "Delete wallet!" -->
-    <string name="delete_failed">Delete failed!</string>
+    <string name="delete_alert_message">此錢包將被刪除。除非你有種子碼或有效備份，否則資金將永久遺失。</string>
+    <string name="menu_delete">刪除</string><!-- like: "Delete wallet!" -->
+    <string name="delete_failed">刪除失敗！</string>
 
     <string name="menu_restore">導入錢包</string>
     <string name="restore_failed">導入失敗!</string>
 
-    <string name="menu_deletecache">Reset wallet!</string>
-    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, &#8230;)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="menu_deletecache">重置錢包！</string>
+    <string name="deletecache_alert_message">此錢包將被重置，所有鏈下資料（如備註、帳戶和子地址名稱、私有交易金鑰等）都將遺失！僅當錢包損壞且無法載入時使用！</string>
 
-    <string name="node_tor_error">Tor required</string>
-    <string name="node_waiting">\u00A0WAITING FOR NODE\u00A0</string>
-    <string name="tor_enable_background">"Allow Background Starts" in Orbot Settings to use Tor!</string>
-    <string name="tor_noshift">SideShift.ai doesn\'t support Tor.\nDisable Tor to swap XMC.</string>
+    <string name="node_tor_error">需要 Tor</string>
+    <string name="node_waiting">\u00A0等待節點\u00A0</string>
+    <string name="tor_enable_background">請在 Orbot 設定中允許「允許背景啟動」以使用 Tor！</string>
+    <string name="tor_noshift">SideShift.ai 不支援 Tor。\n請停用 Tor 後再兌換 XMC。</string>
 
-    <string name="label_wallet_advanced_details">點選以獲得詳細資訊</string> <!-- Please chnage to "Detailed information" -->
-    <string name="label_seed_offset_encrypt">Seed encryption (EXPERIMENTAL)</string>
-    <string name="seed_offset_hint">Seed Offset Phrase (optional)</string>
+    <string name="label_wallet_advanced_details">詳細資訊</string>
+    <string name="label_seed_offset_encrypt">種子加密（實驗性）</string>
+    <string name="seed_offset_hint">種子偏移短語（選填）</string>
 
-    <string name="menu_settings">Settings</string>
-    <string name="title_iface">Interface</string> <!-- like: User Intreface -->
-    <string name="title_info">Information</string>
-    <string name="setting_daynight">Day / Night</string>
+    <string name="menu_settings">設定</string>
+    <string name="title_iface">介面</string>
+    <string name="title_info">資訊</string>
+    <string name="setting_daynight">日/夜間模式</string>
 
-    <string name="setting_theme">Style</string>
+    <string name="setting_theme">風格</string>
     <string-array name="themes">
-        <item>Classic</item>
+        <item>經典</item>
         <item>Baldaŭ</item> <!-- do not translate this one -->
     </string-array>
 
-    <string name="message_qr_failed">Failed to create QR for sharing!</string>
+    <string name="message_qr_failed">產生分享用 QR 碼失敗！</string>
 
-    <string name="tx_locked">Transaction amount locked until block %1$d (in %2$d blocks ≈ %3$,.2f days)</string>
+    <string name="tx_locked">交易金額已鎖定至區塊 %1$d（剩餘 %2$d 個區塊 ≈ %3$,.2f 天）</string>
 
-    <string name="label_streetmode">Street Mode enabled\nOnly new transactions will be shown</string>
+    <string name="label_streetmode">已啟用低調模式\n僅顯示新交易</string>
 </resources>

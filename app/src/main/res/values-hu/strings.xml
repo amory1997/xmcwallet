@@ -220,9 +220,9 @@
     <string name="send_success_title">Kész</string>
 
     <string name="send_amount_label">Mennyiség</string>
-    <string name="send_fee_btc_label">Díj (XMR)</string>
+    <string name="send_fee_btc_label">Díj (XMC)</string>
     <string name="send_fee_label">Díj</string>
-    <string name="send_total_btc_label">Összesen (XMR)</string>
+    <string name="send_total_btc_label">Összesen (XMC)</string>
     <string name="send_total_label">Összesen</string>
 
     <string name="send_amount">%1$s XMC</string>
