@@ -1,6 +1,11 @@
 FROM debian:stable
-# ENV http_proxy=http://192.168.0.111:10811
-# ENV https_proxy=http://192.168.0.111:10811
+
+# Proxy configuration - can be set at build time
+ARG HTTP_PROXY
+ARG HTTPS_PROXY
+ENV http_proxy=${HTTP_PROXY}
+ENV https_proxy=${HTTPS_PROXY}
+
 RUN set -x && apt-get update && apt-get install -y python-is-python3 unzip automake build-essential curl file pkg-config git python3 libtool libtinfo5
 
 WORKDIR /opt/android
@@ -55,8 +60,8 @@ ARG BOOST_VERSION=1_70_0
 ARG BOOST_VERSION_DOT=1.70.0
 ARG BOOST_HASH=430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778
 RUN set -x \
-    && aria2c --all-proxy="http://192.168.0.111:10811" -x 16 -s 16 "https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2/download" \
-## && curl -L -o boost_${BOOST_VERSION}.tar.bz2  https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2 \
+##    && aria2c --all-proxy="${HTTP_PROXY}" -x 16 -s 16 "https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2/download" \
+ && curl ${HTTP_PROXY:+-x $HTTP_PROXY} -L -o boost_${BOOST_VERSION}.tar.bz2  https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.bz2 \
 ##    && curl -L -o boost_${BOOST_VERSION}.tar.bz2 https://mirrors.tuna.tsinghua.edu.cn/boost/${BOOST_VERSION_DOT}/boost_${BOOST_VERSION}.tar.bz2 \
     && echo "${BOOST_HASH}  boost_${BOOST_VERSION}.tar.bz2" | sha256sum -c \
     && tar -xvf boost_${BOOST_VERSION}.tar.bz2 \
@@ -103,7 +108,7 @@ ARG OPENSSL_VERSION=3.0.5
 ARG OPENSSL_HASH=aa7d8d9bef71ad6525c55ba11e5f4397889ce49c2c9349dcea6d3e4f0b024a7a
 # openssl explicitly demands to be built by a clang that has a "/prebuilt/" somewhere along its path, so use the prebuilt version, but make sure to specify the target android api
 RUN set -x \
-    && aria2c --all-proxy="http://192.168.0.111:10811" -x 16 -s 16 "https://github.com/openssl/openssl/releases/download/openssl-3.0.5/openssl-3.0.5.tar.gz" \  
+    && aria2c -x 16 -s 16 "https://github.com/openssl/openssl/releases/download/openssl-3.0.5/openssl-3.0.5.tar.gz" \  
 #  && curl -O https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz \
     && echo "${OPENSSL_HASH}  openssl-${OPENSSL_VERSION}.tar.gz" | sha256sum -c \
     && tar -xzf openssl-${OPENSSL_VERSION}.tar.gz \
