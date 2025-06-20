@@ -18,9 +18,8 @@ make
 ```
 It will fail at end on Windows, but if `wallet2_api.h` exists in `include` folder, the build was successful.
 
-## 📁 Proxy Configuration (Optional) - Click to expand
 <details>
-<summary><h2>Proxy Configuration (Optional)</h2></summary>
+<summary><h2>Proxy Configuration (Optional)  - Click to expand </h2></summary>
 
 If you are building behind a corporate firewall or need to use a proxy server, the build process supports proxy configuration.
 
