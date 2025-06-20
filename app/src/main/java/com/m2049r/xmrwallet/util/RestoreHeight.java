@@ -25,7 +25,7 @@ import java.util.TimeZone;
 public class RestoreHeight {
     // XMC parameters
     static final int DIFFICULTY_TARGET = 120; // seconds per block
-    static final long XMC_GENESIS_TIMESTAMP = 1734393600L; // 2024-12-17 00:00:00 UTC (seconds)
+    static final long XMC_GENESIS_TIMESTAMP = 1734424522L; // 2024-12-17 08:35:22 UTC (seconds)
     
     static private RestoreHeight Singleton = null;
 
@@ -74,8 +74,8 @@ public class RestoreHeight {
         // Calculate estimated height based on time difference
         long timeDiff = targetTimestamp - XMC_GENESIS_TIMESTAMP;
         long estimatedHeight = timeDiff / DIFFICULTY_TARGET;
-        
-        // Return estimated height with some safety buffer (subtract ~1 day worth of blocks)
-        return Math.max(0, estimatedHeight - 720); // 720 blocks ≈ 1 day at 120s per block
+
+        // Return estimated height with some safety buffer (subtract ~30 day worth of blocks)
+        return Math.max(0, estimatedHeight - 21600); // 21600 blocks ≈ 30 day at 120s per block
     }
 }
